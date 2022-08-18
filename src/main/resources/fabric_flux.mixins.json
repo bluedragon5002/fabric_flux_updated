@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.bluedragon5002.fabric_flux_updated.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "FabricFluxMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
