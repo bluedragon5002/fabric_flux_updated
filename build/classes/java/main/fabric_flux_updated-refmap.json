@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "net/bluedragon5002/fabric_flux_updated/mixin/FabricFluxMixin": {
+      "init()V": "Lnet/minecraft/class_442;method_25426()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/bluedragon5002/fabric_flux_updated/mixin/FabricFluxMixin": {
+        "init()V": "Lnet/minecraft/class_442;method_25426()V"
+      }
+    }
+  }
+}

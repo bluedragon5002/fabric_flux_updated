@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.bluedragon5002",
+    "module": "fabric_flux_updated",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fabric_flux_updated-1.0.0.jar",
+          "url": "fabric_flux_updated-1.0.0.jar",
+          "size": 20091,
+          "sha512": "92af635eec1de6b24aefdd626f225cfd70dd04cd56dbf8d1f7d02248b783beae0fcffed3f9f2c3a7907e18be2704507b805dde204d5b5442afc1f44b093a3308",
+          "sha256": "756e2b2ed5f157394a96e45f34624b51e18f382136fcf20b19dcc300b077ea46",
+          "sha1": "fb0f91cd9d798ae17bfa8282870f797f1e4edf4c",
+          "md5": "a04d219de343fa229cd7d81b0c18d686"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.9"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.58.0+1.18.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric_flux_updated-1.0.0.jar",
+          "url": "fabric_flux_updated-1.0.0.jar",
+          "size": 20091,
+          "sha512": "92af635eec1de6b24aefdd626f225cfd70dd04cd56dbf8d1f7d02248b783beae0fcffed3f9f2c3a7907e18be2704507b805dde204d5b5442afc1f44b093a3308",
+          "sha256": "756e2b2ed5f157394a96e45f34624b51e18f382136fcf20b19dcc300b077ea46",
+          "sha1": "fb0f91cd9d798ae17bfa8282870f797f1e4edf4c",
+          "md5": "a04d219de343fa229cd7d81b0c18d686"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fabric_flux_updated-1.0.0-sources.jar",
+          "url": "fabric_flux_updated-1.0.0-sources.jar",
+          "size": 13481,
+          "sha512": "886a88b30d65a087d67c18317d03054b7009ac7668cabfddc0dc0ef3f2a72449911db968e19f9a27e89fc6ada985a2760962cf08392c25af424b01f505ededca",
+          "sha256": "f7e58bbcb7d86cd7d32638072770bd462c5c1b74b88559023d0e475efe51a8f2",
+          "sha1": "d169a34721bf83e76039e93c9d90198a16d62c96",
+          "md5": "06ced93faac9f32b3ac1eaaaa2313d41"
+        }
+      ]
+    }
+  ]
+}
