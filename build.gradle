@@ -8,10 +8,11 @@ sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
 
 apply plugin: 'maven-publish'
+apply plugin: 'java-library'
 
 archivesBaseName = project.archives_base_name
 version = project.mod_version
-group = 'com.github.bluedragon5002'
+group = 'com.github.bluedragon5002.fabric_flux_updated'
 
 repositories {
 	// Add repositories to retrieve artifacts from in here.
@@ -20,7 +21,8 @@ repositories {
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
 	maven {
-		url 'https://jitpack.io'
+		name = "JitPack"
+		url = "https://jitpack.io"
 	}
 
 }
@@ -34,7 +36,7 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	implementation 'com.github.bluedragon5002:fabric_flux_updated:master'
+	//implementation 'com.github.bluedragon5002:fabric_flux_updated:master'
 }
 
 processResources {
